@@ -18,3 +18,4 @@ def generate_certificate(data): #function to
 for record in names:
     certificate = generate_certificate(record)
     certificate.save(f"./certificates/{record['name']}.jpg") #outputs image in a folder of your choice with the name of the certificate recipient.
+    
